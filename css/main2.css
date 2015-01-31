@@ -73,6 +73,7 @@ footer {
 .nav {
   width: 85vw;
   height: 25vh;
+  padding: 5vh 0;
 }
 
 .nav ul li {
@@ -80,7 +81,7 @@ footer {
   display: inline;
   text-transform: uppercase;
   font-size: 1.15em;
-  margin: 5vh 2vh;
+  margin: 5vh 5vh;
   font-weight: 800;
 }
 
