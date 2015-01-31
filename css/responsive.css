@@ -1,15 +1,53 @@
-@media screen and (min-width: 320px)
+@media screen and (max-width: 320px) {
 
-.statement {
-  font-size: 1em;
-  color: red;
+.main {
+  min-width: 95%;
 }
 
 
+.sub-logo {
+  font-size: 1em;
+}
 
+.statement {
+  font-size: .9em;
+}
 
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 480px) {
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul li {
+  align-self: center;
+  margin: 5px 5px;
+  background-color: rgba(36,138,119,0.9);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+
+.main {
+  min-width: 85%;
+
+}
+
+.statement {
+  font-size: 1em;
+}
+
+}
+
+@media screen and (max-width: 768px) {
 
 .statement {
 

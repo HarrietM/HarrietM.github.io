@@ -74,6 +74,7 @@ a {
   font-size: 1.5em;
   text-align: justify;
   font-weight: 700;
+  padding: 10px;
 }
 
 /** Footer **/
@@ -91,8 +92,12 @@ footer {
 /** Navigation **/
 
 .nav {
-  padding: 5vh 0;
   align-self: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul li {
