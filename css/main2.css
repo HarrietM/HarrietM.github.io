@@ -1,0 +1,93 @@
+/** GENERAL **/
+
+html {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: darkgrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** MAIN **/
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/** HEADING **/
+
+.header {
+  t
+  max-height: 10vh;
+  width: 100vh;
+}
+
+.git {
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+/** CENTER **/
+
+.main {
+  background-color: rgba(36,138,119,0.2);
+  color: black;
+  max-width: 60vw;
+  max-width: 80vh;
+  align-self: center;
+}
+
+/** Footer **/
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-height: 10vh;
+  background: rgba(36,138,119,0.6)
+}
+
+.mark {
+  width: 90px;
+  height: 90px;
+  margin: 2.5vh 2.5vw;
+  padding: 5px 5px;
+}
+
+/** Navigation **/
+
+.nav {
+  width: 85vw;
+  height: 25vh;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 1.15em;
+  margin: 5vh 2vh;
+  font-weight: 800;
+}
+
+.nav a, nav a:visited {
+  color: white;
+}
+
+.nav a.selected, nav a:hover {
+  color: grey;
+}
