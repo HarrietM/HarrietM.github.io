@@ -22,14 +22,13 @@ a {
   min-height: 100vh;
   width: 100vw;
   flex-direction: column;
-  justify-content: center;
 }
 
 /** HEADING **/
 
 .header {
-  t
-  max-height: 10vh;
+  flex: 1;
+  height: 10vh;
   width: 100vh;
 }
 
@@ -62,15 +61,23 @@ footer {
 }
 
 .mark {
+  order: 1;
   width: 90px;
   height: 90px;
-  margin: 2.5vh 2.5vw;
+  margin: 10px 10px;
   padding: 5px 5px;
+}
+
+p {
+  order: 3;
+  align-self: center;
+  display: inline-block;
 }
 
 /** Navigation **/
 
 .nav {
+  order: 2;
   width: 85vw;
   height: 25vh;
   padding: 5vh 0;
