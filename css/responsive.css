@@ -1,28 +1,8 @@
 @media screen and (min-width: 320px)
 
-footer {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  background: rgba(36,138,119,0.6);
-}
-
-.mark {
-  order: 1;
-  align-self: center;
-  width: 60px;
-  height: 60px;
-  margin: 2.5vh 2.5vw;
-  padding: 5px 5px;
-  float: right;
-}
-
-.nav {
-  order: 2;
-  width: 85vw;
-  height: 25vh;
-  text-align: right;
-  float: left;
+.statement {
+  font-size: 1em;
+  color: red;
 }
 
 
@@ -31,3 +11,6 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+.statement {
+
+}
