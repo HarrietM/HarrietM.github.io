@@ -32,6 +32,17 @@
   border-radius: 5px;
 }
 
+.content {
+  flex-direction: column;
+}
+
+.col {
+  align-self: center;
+  min-width: 95%;
+  min-height: 10%;
+  border-style: dotted;
+}
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {

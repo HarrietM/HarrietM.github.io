@@ -1,42 +1,48 @@
-<!DOCTYPE html>
-<html>
-  <!-- The head tag cotains information for the browser -->
+<!DOCTYPE>
+<html class="blog">
   <head>
-    <title>Version Control, Git and why you need it</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+    <meta charset="utf-8">
+    <title>Blog | Version Control, Git and Why You Need It</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main2.css">
+    <link rel="stylesheet" href="../css/responsive.css">
   </head>
-
-  <!-- This is a comment line - you can delete them if you dont need them -->
-  <!-- The body tag contains everything that will be displayed on the page -->
   <body>
-  <!-- The header tag contains the content at the top of a division - in this case the body tag/division -->
-    <header>
-      <h1>Version Control, Git and Why You Need It!</h1>
-      <h2>A Beginner's Guide</h2>
-      <h4>25 January 2015</h4>
+    <header class="blog-header">
+      <a href="../index.html"><img src="../img/logo-black.png" alt="logo group" class="logo-black group"></a>
+      <a href="https://github.com/HarrietM"><img src="../img/github-mark-black.png" alt="github icon" class="git-black group"></a>
     </header>
-
-  <!-- The article tag is a division for a block of content like a blog post  -->
-    <article>
-  <!-- Copy and paste as many sections as you want to add paragraphs to the article -->
-      <section>
-        <p>
-          Learning to code involves more than learning the syntax of your language(s) of choice. There are some important basics to know that are commonly thought of as good practice within coding. I’ll call these the Recommended Coding Guidelines. The first, and most important, of these is version control.
-          <p> <h3>What is version control and what are the benefits of it?</h3>
-          Often when you work on something, let’s say a document in Microsoft Word, you make alterations to your file and then save it, thereby overwriting the previous content of the document. Later, you might decide you regret deleting a particular paragraph. If you haven’t turned on track changes you’ll probably panic. However, if you’ve savvily turned them on Word will let you see that deleted paragraph and, loosely speaking, reinstate it from the past version of your document to your current version. This is like the distant cousin of version control.</p>
+      <div class ="content">
+        <div class="col">
+           <div class="nav">
+            <ul>
+              <li><a href="../blog.html">blog</a></li>
+              <li><a href="../contact.html">contact</a></li>
+              <li><a href="../portfolio.html">portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+        <section>
+          <h2>Version Control, Git and Why You Need It</h2>
+          <h3>A Beginner's Guide</h3>
+          <h4>25 January 2015</h4>
+          <p>Learning to code involves more than learning the syntax of your language(s) of choice. There are some important basics to know that are commonly thought of as good practice within coding. I’ll call these the Recommended Coding Guidelines. The first, and most important, of these is version control.
+          </p>
+          <h4>What is version control and what are the benefits of it?</h4>
+          <p> Often when you work on something, let’s say a document in Microsoft Word, you make alterations to your file and then save it, thereby overwriting the previous content of the document. Later, you might decide you regret deleting a particular paragraph. If you haven’t turned on track changes you’ll probably panic. However, if you’ve savvily turned them on Word will let you see that deleted paragraph and, loosely speaking, reinstate it from the past version of your document to your current version. This is like the distant cousin of version control.</p>
           <p>In coding, if you worked on a piece of code and then saved it, overwriting the previous content, then discovered that you’d made an error that, unless you had a method of tracking your changes you’d have to undo all you work manually to resolve your problem.  That could take a very long time. Version control helps manage this.</p>
           <p>Version control lets one person or many people make changes to a project. These changes are saved at different points but each save does not overwrite the previous incarnation of the project. This means, if necessary, you can see and go back to those previous states.</p>
           <p> A popular and free open source method of version control is Git. You should learn it.</p>
-          <p><h3>How does git help you keep track of changes?</h3>
-          Each new project you use Git for works like a tree. Just like a tree Git lets you have branches.  The master is the main copy of you project repository. If you want to make changes you can create a branch off the master to try out the changes before saving them back to your main project. If you are feeling experimental whilst making that change you can branch off it, too. Each branch creates a new version and can be merged back into the master in order to include those changes or experimentations in it. You don’t have to keep track of enumerable branches and changes in your head, Git does this for you.</p>
-          <p><h3>Why use GitHub to store your code?</h3>
-          There are different types of version control. You don’t need to know how they all work, though more about them can be found <a href="http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">here</a>. You do need to know about distributed version control systems. They mirror versions stored locally on your machine on a separate server. This way everything is fully backed up if anything happens to any machine within the system.
+          <h3>How does git help you keep track of changes?</h3>
+          <p>Each new project you use Git for works like a tree. Just like a tree Git lets you have branches.  The master is the main copy of you project repository. If you want to make changes you can create a branch off the master to try out the changes before saving them back to your main project. If you are feeling experimental whilst making that change you can branch off it, too. Each branch creates a new version and can be merged back into the master in order to include those changes or experimentations in it. You don’t have to keep track of enumerable branches and changes in your head, Git does this for you.</p>
+          <h3>Why use GitHub to store your code?</h3>
+          <p>There are different types of version control. You don’t need to know how they all work, though more about them can be found <a href="http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">here</a>. You do need to know about distributed version control systems. They mirror versions stored locally on your machine on a separate server. This way everything is fully backed up if anything happens to any machine within the system.
           <p> Git works locally on your machine, letting you branch off your master, creating different versions and, generally, not do terrible things by overwriting your very fine work. But in order to be doubly safe you’ll want to back that up offsite, and if you want to work with others on the project you’ll need somewhere they can access your Git repository. <a href="https://github.com/">GitHub</a> lets you do this. It is   the hub of git and lives online.</p>
         </p>
-
-      </section>
-
-    </article>
+        </section>
+        </div>
+      </div>
   </body>
 </html>
