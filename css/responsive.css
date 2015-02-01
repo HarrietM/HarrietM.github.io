@@ -4,7 +4,6 @@
   min-width: 95%;
 }
 
-
 .sub-logo {
   font-size: 1em;
 }
@@ -34,14 +33,27 @@
 
 .content {
   flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
 }
 
 .col {
+  flex: 1;
+  -webkit-flex: 1;
   align-self: center;
+  -webkit-align-self: center;
   min-width: 95%;
   min-height: 10%;
   border-style: dotted;
 }
+
+.col-2 {
+  flex: 3;
+  -webkit-flex: 3;
+}
+
+
 
 }
 
@@ -58,8 +70,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
-.statement {
 
 }

@@ -31,9 +31,13 @@ a.selected, a:hover {
 
 .container {
   display: flex;
+  -webkit-display: flex;
   flex-direction: column;
-  align-items: center;
+  -webkit-flex-direction: column;
+  align-items:center;
+  -webkit-align-items: center;
   justify-content: center;
+  -webkit-justify-content: center;
   min-height: 90vh;
 }
 
@@ -163,15 +167,21 @@ footer {
 
 .content {
   display: flex;
+  display: -webkit-flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
   min-height: 90%;
 }
 
 .col {
   align-self: flex-start;
+  align-self: -webkit-flex-start;
   flex: 1;
+  -webkit-flex: 1;
   background: rgba(36,138,119,0.2);
   min-height: 100%;
   margin: 2%;
@@ -182,6 +192,7 @@ footer {
 
 .col-2 {
   flex: 3;
+  -webkit-flex: 3;
   min-height: 100%;
   margin: 2%;
   border-color: rgba(36,138,119,0.2);
@@ -192,8 +203,11 @@ footer {
 
 .col-2 {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   align-items: center;
+  -webkit-align-items: center;
 }
 
 .col-2 p {
