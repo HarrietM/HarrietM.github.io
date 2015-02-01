@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 
 .main {
   min-width: 95%;
@@ -12,9 +12,6 @@
   font-size: .9em;
 }
 
-}
-
-@media screen and (max-width: 480px) {
 
 .nav ul {
   display: flex;
@@ -57,7 +54,7 @@
 
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
 .main {
   min-width: 85%;
@@ -70,7 +67,12 @@
 
 }
 
-@media screen and (min-width: 768px) {
+.col {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+}
+
+@media screen and (min-width: 769px) {
 
 
 }
