@@ -13,5 +13,3 @@ webApp.config(['$routeProvider',
       });
   }]);
 
-
-

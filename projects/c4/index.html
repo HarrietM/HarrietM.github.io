@@ -1,25 +1,17 @@
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="./js/tile.js"></script>
-<script src="./js/player.js"></script>
-  <script src="./js/game.js"></script>
-<script src="./js/board.js"></script>
-<script src="./js/boardController.js"></script>
-<script src="./js/application.js"></script> -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js"></script>
+<script src="./projects/c4/js/tile.js"></script>
+<script src="./projects/c4/js/player.js"></script>
+<script src="./projects/c4/js/game.js"></script>
+<script src="./projects/c4/js/board.js"></script>
+<script src="./projects/c4/js/boardController.js"></script>
 
 <div id="c4">
   <button class="play">Play</button>
 </div>
 
 <script type="text/javascript">
-  console.log("loaded")
-  $(".play").on('click', function(e){
-    e.preventDefault();
-    alert("here")
+  $("body").on('click', '.play',function(){
     var board = new boardController("#c4");
-    board.run();
-    console.log(here)
-
-  });
+     board.run();
+   })
 </script>

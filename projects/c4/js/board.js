@@ -5,6 +5,7 @@ function Board(selector){
 Board.prototype = {
 
   load: function(){
+    $(this.selector).empty();
     $(this.selector).append("<div class='board'></div>");
 
     for (var i = 0; i < 7; i++){
