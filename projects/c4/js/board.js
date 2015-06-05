@@ -6,17 +6,16 @@ Board.prototype = {
 
   load: function(){
     $(this.selector).empty();
-    $(this.selector).append("<div class='board'></div>");
 
     for (var i = 0; i < 7; i++){
       var columnButton = "<div class='column-button' id="+i+"></div>";
-      $(".board").append(columnButton);
+      $("#c4").append(columnButton);
     }
 
     for (var c = 0; c < 6; c++){
       for (var r = 0; r < 7; r++){
         var tile = "<div class='tile' id=r"+r+"_c"+c+"></div>"
-        $(".board").append(tile);
+        $("#c4").append(tile);
       }
     }
   },

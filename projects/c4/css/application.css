@@ -1,16 +1,14 @@
-html, body {
+#c4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 100%;
   min-height: 100%;
 }
 
-body {
-  background-color: grey;
+.play {
+  align-self: center;
 }
-
-.board {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 
 .tile, .column-button {
   padding: 5%;
