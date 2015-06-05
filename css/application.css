@@ -13,6 +13,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
   border-bottom: 5px dotted black;
 }
 
@@ -35,7 +38,7 @@ body {
   -webkit-display: flex;
   flex-direction: column;
   -webkit-flex-direction: column;
-  align-items:center;
+  align-items: center;
   -webkit-align-items: center;
   min-height: 90vh;
 }
