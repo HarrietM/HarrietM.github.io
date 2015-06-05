@@ -1,13 +1,15 @@
 #c4 {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   min-width: 100%;
   min-height: 100%;
 }
 
 .play {
-  align-self: center;
+  height: 10%;
+  width: 70%;
+  margin-top: 5%;
 }
 
 .tile, .column-button {
@@ -28,3 +30,4 @@
 .player2 {
   background-color: green;
 }
+
