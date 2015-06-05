@@ -1,0 +1,20 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js"></script>
+<script src="./projects/c4/js/tile.js"></script>
+<script src="./projects/c4/js/player.js"></script>
+<script src="./projects/c4/js/game.js"></script>
+<script src="./projects/c4/js/board.js"></script>
+<script src="./projects/c4/js/boardController.js"></script>
+
+<h1>Connect Four</h1>
+
+<div id="c4">
+  <button class="play">Play</button>
+
+</div>
+
+<script type="text/javascript">
+  $("body").on('click', '.play',function(){
+    var board = new boardController("#c4");
+     board.run();
+   })
+</script>

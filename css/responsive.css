@@ -1,78 +1,12 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 650px) {
+  #c4 {
+    min-width: 650px;
+    min-height: 650px;
+    max-width: 650px;
+    max-height: 650px;
+  }
 
-.main {
-  min-width: 95%;
-}
-
-.sub-logo {
-  font-size: 1em;
-}
-
-.statement {
-  font-size: .9em;
-}
-
-
-.nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav ul li {
-  align-self: center;
-  margin: 5px 5px;
-  background-color: rgba(36,138,119,0.9);
-  padding: 2px 5px;
-  border-radius: 5px;
-}
-
-.content {
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  align-items: center;
-  -webkit-align-items: center;
-}
-
-.col {
-  flex: 1;
-  -webkit-flex: 1;
-  align-self: center;
-  -webkit-align-self: center;
-  min-width: 95%;
-  min-height: 10%;
-  border-style: dotted;
-}
-
-.col-2 {
-  flex: 3;
-  -webkit-flex: 3;
-}
-
-
-
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-
-.main {
-  min-width: 85%;
-
-}
-
-.statement {
-  font-size: 1em;
-}
-
-}
-
-.col {
-  align-self: flex-start;
-  -webkit-align-self: flex-start;
-}
-
-@media screen and (min-width: 769px) {
-
-
+  .play {
+    width: 40%;
+  }
 }

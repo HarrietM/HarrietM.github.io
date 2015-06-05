@@ -1,0 +1,66 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: 'Josefin Slab', serif;
+}
+
+/*HEADER*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 5px dotted black;
+}
+
+.git {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.hm {
+  height: 40px;
+  width: 65px;
+  margin: 10px;
+}
+
+/*BODY*/
+
+.container {
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items:center;
+  -webkit-align-items: center;
+  min-height: 90vh;
+}
+
+.project {
+  padding: 5%;
+}
+
+a {
+  font-size: 200%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

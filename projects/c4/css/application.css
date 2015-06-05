@@ -1,0 +1,33 @@
+#c4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.play {
+  height: 10%;
+  width: 70%;
+  margin-top: 5%;
+}
+
+.tile, .column-button {
+  padding: 5%;
+  margin: 2%;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.column-button {
+  background-color: red;
+}
+
+.player1 {
+  background-color: yellow;
+}
+
+.player2 {
+  background-color: green;
+}
+
