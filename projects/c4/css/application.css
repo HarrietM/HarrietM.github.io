@@ -1,0 +1,32 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-color: grey;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.tile, .column-button {
+  padding: 5%;
+  margin: 2%;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.column-button {
+  background-color: red;
+}
+
+.player1 {
+  background-color: yellow;
+}
+
+.player2 {
+  background-color: green;
+}
